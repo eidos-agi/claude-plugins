@@ -18,12 +18,14 @@ Two-way Slack channel for Claude Code. Bidirectional messaging with access contr
 # Install
 claude plugin install slack-cc@eidos-agi
 
-# Launch with channel
-claude --channels plugin:slack-cc@eidos-agi
+# Launch with channel bridge
+claude --dangerously-load-development-channels plugin:slack-cc@eidos-agi
 
-# Configure (first time)
+# Configure tokens (first time)
 /slack-cc:configure <xoxb-bot-token> <xapp-app-token>
 ```
+
+> **Important:** The `--dangerously-load-development-channels` flag is required. The shorter `--channels` flag only works for plugins on Anthropic's official allowlist. This applies to all private marketplace plugins. The flag name is a Claude Code security gate, not a safety warning about the plugin itself.
 
 **What it does:**
 - Inbound: Slack messages appear in your Claude session as `<channel>` tags
