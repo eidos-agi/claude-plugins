@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "eidos-agi",
+  "description": "AI agent tools and channel plugins by Eidos AGI. Slack bridge, session orchestration, research workflows, and more.",
+  "owner": {
+    "name": "Eidos AGI",
+    "email": "daniel@eidosagi.com"
+  },
+  "plugins": [
+    {
+      "name": "slack-eidos",
+      "description": "Two-way Slack channel for Claude Code. Bidirectional messaging with access control, pairing, and diagnostics. Not read-only — a full bridge.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/eidos-agi/cc-channel-slack-eidos.git"
+      },
+      "homepage": "https://github.com/eidos-agi/cc-channel-slack-eidos"
+    }
+  ]
+}
