@@ -8,14 +8,14 @@
   },
   "plugins": [
     {
-      "name": "slack-eidos",
+      "name": "slack-cc",
       "description": "Two-way Slack channel for Claude Code. Bidirectional messaging with access control, pairing, and diagnostics. Not read-only — a full bridge.",
       "category": "productivity",
       "source": {
         "source": "url",
-        "url": "git@github.com:eidos-agi/slack-eidos-cc.git"
+        "url": "git@github.com:eidos-agi/slack-cc.git"
       },
-      "homepage": "https://github.com/eidos-agi/slack-eidos-cc"
+      "homepage": "https://github.com/eidos-agi/slack-cc"
     }
   ]
 }

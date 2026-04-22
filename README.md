@@ -10,19 +10,19 @@ claude plugin marketplace add eidos-agi/claude-plugins
 
 ## Available Plugins
 
-### slack-eidos
+### slack-cc
 
 Two-way Slack channel for Claude Code. Bidirectional messaging with access control, pairing, and diagnostics.
 
 ```bash
 # Install
-claude plugin install slack-eidos@eidos-agi
+claude plugin install slack-cc@eidos-agi
 
 # Launch with channel
-claude --channels plugin:slack-eidos@eidos-agi
+claude --channels plugin:slack-cc@eidos-agi
 
 # Configure (first time)
-/slack-eidos:configure <xoxb-bot-token> <xapp-app-token>
+/slack-cc:configure <xoxb-bot-token> <xapp-app-token>
 ```
 
 **What it does:**
@@ -33,4 +33,4 @@ claude --channels plugin:slack-eidos@eidos-agi
 
 **Requirements:** A Slack app with Socket Mode enabled and a Bot User OAuth Token.
 
-See [slack-eidos-cc](https://github.com/eidos-agi/slack-eidos-cc) for full docs.
+See [slack-cc](https://github.com/eidos-agi/slack-cc) for full docs.
