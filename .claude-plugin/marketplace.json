@@ -13,9 +13,9 @@
       "category": "productivity",
       "source": {
         "source": "url",
-        "url": "git@github.com:eidos-agi/cc-channel-slack-eidos.git"
+        "url": "git@github.com:eidos-agi/slack-eidos-cc.git"
       },
-      "homepage": "https://github.com/eidos-agi/cc-channel-slack-eidos"
+      "homepage": "https://github.com/eidos-agi/slack-eidos-cc"
     }
   ]
 }

@@ -33,4 +33,4 @@ claude --channels plugin:slack-eidos@eidos-agi
 
 **Requirements:** A Slack app with Socket Mode enabled and a Bot User OAuth Token.
 
-See [cc-channel-slack-eidos](https://github.com/eidos-agi/cc-channel-slack-eidos) for full docs.
+See [slack-eidos-cc](https://github.com/eidos-agi/slack-eidos-cc) for full docs.
